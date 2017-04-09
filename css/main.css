@@ -1718,6 +1718,24 @@ pre .javascript .function {
   max-width: 96px;
   height: auto;
   border: 2px solid #333;
+/* start*/
+  border-radius: 50%;
+  webkit-transition: 1.4s all;
+  moz-transition: 1.4s all;
+  ms-transition: 1.4s all;
+  transition: 1.4s all;
+/* end */
+}
+.site-author-image:hover {
+  background-color: #55dae1;
+  webkit-transform: rotate(360deg) scale(1.1);
+  moz-transform: rotate(360deg) scale(1.1);
+  ms-transform: rotate(360deg) scale(1.1);
+  -webkit-transform: rotate(360deg) scale(1.1);
+  -moz-transform: rotate(360deg) scale(1.1);
+  -ms-transform: rotate(360deg) scale(1.1);
+  -o-transform: rotate(360deg) scale(1.1);
+  transform: rotate(360deg) scale(1.1);
 }
 .site-author-name {
   margin: 5px 0 0;
@@ -1799,7 +1817,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff9ff0;
+  background: #ff87ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2752,7 +2770,7 @@ hr {
   display: none;
 }
 .posts-expand .post {
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .posts-expand .post:first-child {
   margin-top: 0;
@@ -2886,4 +2904,299 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+a#download {
+  display: inline-block;
+  padding: 0 10px;
+  color: #000;
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+  font-weight: bold;
+}
+a#download:hover {
+  background: #000;
+  color: #fff;
+}
+span#inline-yellow {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0;
+  background-color: #f0ad4e;
+}
+span#inline-green {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0;
+  background-color: #5cb85c;
+}
+span#inline-blue {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0;
+  background-color: #2780e3;
+}
+span#inline-purple {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0;
+  background-color: #9954bb;
+}
+p#div-border-left-red {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #df3e3e;
+}
+p#div-border-left-yellow {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #f0ad4e;
+}
+p#div-border-left-green {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #5cb85c;
+}
+p#div-border-left-blue {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #2780e3;
+}
+p#div-border-left-purple {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #9954bb;
+}
+p#div-border-right-red {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-right-width: 5px;
+  border-radius: 3px;
+  border-right-color: #df3e3e;
+}
+p#div-border-right-yellow {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-right-width: 5px;
+  border-radius: 3px;
+  border-right-color: #f0ad4e;
+}
+p#div-border-right-green {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-right-width: 5px;
+  border-radius: 3px;
+  border-right-color: #5cb85c;
+}
+p#div-border-right-blue {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-right-width: 5px;
+  border-radius: 3px;
+  border-right-color: #2780e3;
+}
+p#div-border-right-purple {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-right-width: 5px;
+  border-radius: 3px;
+  border-right-color: #9954bb;
+}
+p#div-border-top-red {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-top-width: 5px;
+  border-radius: 3px;
+  border-top-color: #df3e3e;
+}
+p#div-border-top-yellow {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-top-width: 5px;
+  border-radius: 3px;
+  border-top-color: #f0ad4e;
+}
+p#div-border-top-green {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-top-width: 5px;
+  border-radius: 3px;
+  border-top-color: #5cb85c;
+}
+p#div-border-top-blue {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-top-width: 5px;
+  border-radius: 3px;
+  border-top-color: #2780e3;
+}
+p#div-border-top-purple {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-top-width: 5px;
+  border-radius: 3px;
+  border-top-color: #9954bb;
+}
+.post-comments-count a::before {
+  content: "评论";
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn {
+  background-color: #649ab6;
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn:hover {
+  background-color: #4c618f;
+}
+.tie-empty-tip {
+  display: none;
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .user-info img:hover {
+#fff
+rgba(255,255,255,0.6)
+  -webkit-box-shadow: 0 0 10px #fff;
+rgba(255,255,255,0.6)
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .user-info img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 4px 10px 4px 8px;
+  padding: 0;
+  cursor: pointer;
+  box-shadow: inset 0 -1px 0 rgba(51,51,51,0.2) sf; /*设置图像阴影效果*/
+  -webkit-box-shadow: inset 0 -1px 0 rgba(51,51,51,0.2) sf;
+  -webkit-transition: 0.4s;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out; /*变化时间设置为0.4秒(变化动作即为下面的图像旋转360读）*/
+  -moz-transition: -moz-transform 0.4s ease-out;
+}
+#yun-tie-sdk-wrap .single-tie .photo img:hover {
+#fff
+rgba(255,255,255,0.6)
+  -webkit-box-shadow: 0 0 10px #fff;
+rgba(255,255,255,0.6)
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+}
+#yun-tie-sdk-wrap .single-tie .photo img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  box-shadow: inset 0 -1px 0 rgba(51,51,51,0.2) sf; /*设置图像阴影效果*/
+  -webkit-box-shadow: inset 0 -1px 0 rgba(51,51,51,0.2) sf;
+  -webkit-transition: 0.4s;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out; /*变化时间设置为0.4秒(变化动作即为下面的图像旋转360读）*/
+  -moz-transition: -moz-transform 0.4s ease-out;
+}
+.name-nick:hover {
+  border-left: 14px solid #3264b4;
+}
+.name-desp:hover {
+  border-left: 14px solid #3264b4;
+}
+#yun-tie-sdk-wrap .single-tie .tie-author .name-nick {
+  cursor: pointer;
+  transition: border-width 0.3s linear 0.1s, color 0.2s linear 0.3s;
+}
+#yun-tie-sdk-wrap .single-tie .tie-author .name-desp {
+  cursor: pointer;
+  transition: border-width 0.3s linear 0.1s, color 0.2s linear 0.3s;
+}
+.tie-time:hover {
+  border-right: 14px solid #3264b4;
+}
+#yun-tie-sdk-wrap .single-tie .tie-time {
+  transition: border-width 0.3s linear 0.1s, color 0.2s linear 0.3s;
+  cursor: pointer;
 }
