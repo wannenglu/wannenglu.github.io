@@ -3,13 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[simplify-css]]></title>
-      <url>%2F2017%2F04%2F10%2Fsimplify-css%2F</url>
-      <content type="text"></content>
-    </entry>
-
-    
-    <entry>
       <title><![CDATA[网址前面的ico图标添加]]></title>
       <url>%2F2017%2F04%2F10%2FaddIco%2F</url>
       <content type="text"><![CDATA[前言 ico图标可以作为浏览器首段图标显示，还可以在收藏夹内收藏内容的前段显示小图标。在用户浏览中也起到很大的作用，让人感觉很正规、大气等特征。 步骤一： 制作一张合适的图片，这张图片就是将来网站ico站标的雏形，图片的初始大小、格式（jpg，gif，png）没有要求。 步骤二： 利用在线生成ico图标的工具，在线生成ico站标。例如网站网址：www.ico.la ，导入上面选定的图片，如下图所示： 步骤三： 生成的ico站标“目标尺寸”一般情况都选择16*16，如下图所示，并下载图片。 步骤四： 将制作好的ico文件命名为“favicon.ico”，一般情况下ico制作网站生成的文件会自动帮助默认命名。 步骤五： 将“favicon.ico”文件放到网站的根目录下。 步骤六： 在首页文件的&lt;head&gt;&lt;/head&gt;标签内加上一段ico站标代码，代码如下：12&lt;link rel=&quot;shortcut icon&quot; href=&quot;/favicon.ico&quot; /&gt;&lt;link rel=&quot;bookmark&quot; href=&quot;/favicon.ico&quot; /&gt; 步骤七： 最后刷新网站即可。]]></content>
